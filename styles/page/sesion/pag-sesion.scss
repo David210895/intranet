@@ -1,0 +1,28 @@
+@import "../../core";
+
+ul{
+    list-style: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+}
+.main__top{
+    & a{
+        margin:0;
+    }
+}
+.skill a{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    height: 29px;
+    border-radius: 0;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+.info{
+    & h1,& h2{
+        margin:0;
+    }
+}

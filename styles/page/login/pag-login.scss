@@ -1,0 +1,30 @@
+@import "../../core";
+
+.formulario{
+    width:33%;
+    height: 600px;
+}
+.login{
+    width: 100%;
+    text-align: center;
+}
+h3{
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+.button{
+    border-radius: 4px;
+    height: 38px;
+    line-height: 0.1;
+}
+
+h1{
+    color: map-get($colors-branding, "primary" );
+}
+.mgn{
+    margin: $margin-global;
+}
+.contra{
+    margin:0;
+    color:map-get($colors-semanctic,"success")
+}

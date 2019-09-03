@@ -1,0 +1,13 @@
+
+.ip{
+    width: 307px;
+    height: 42px;
+    border-radius: 4px;
+    border: solid 1px map-get($colors-neutrals,"grey");
+    &--danger{
+        border: solid 1px map-get($colors-semanctic,"red");
+    }
+    &--adv{
+        border: solid 1px map-get($colors-branding,"complementary");
+    }
+}

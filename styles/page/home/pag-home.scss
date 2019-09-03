@@ -1,0 +1,10 @@
+@import "../../core";
+
+.pag-home {
+  color: map-get($colors-branding, "primary");
+  
+  h1 {
+    font-size: 4.2rem;
+    font-weight: bold;
+  }
+}

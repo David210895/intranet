@@ -1,0 +1,5 @@
+
+@function pixelToRem($value) {
+    $valor:10;
+    @return #{$value/$valor}rem;
+}
